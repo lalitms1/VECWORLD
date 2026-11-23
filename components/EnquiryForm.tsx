@@ -20,7 +20,7 @@ export default function EnquiryForm() {
     try {
       const body = new URLSearchParams();
       formData.forEach((value, key) => body.append(key, String(value)));
-      const res = await fetch('/', {
+  const res = await fetch('/__forms.html', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: body.toString(),

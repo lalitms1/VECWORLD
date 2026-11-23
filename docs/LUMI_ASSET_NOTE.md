@@ -1,0 +1,1 @@
+The Lumi image used by the website is public/assets/world/lumi-keeper.jpg, sourced from the latest user-provided Lumi reference. The previous lumi-keeper.webp is retained only for rollback and is not referenced by the homepage.
